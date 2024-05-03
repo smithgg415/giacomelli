@@ -1,0 +1,30 @@
+.header {
+    background-color:cadetblue;
+    
+    width: 100%;
+    height:150px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header ul{
+    display:flex;
+    flex-direction: row;
+
+    list-style: none;
+
+    margin-top:50px
+}
+.header ul li a{
+    margin:10px;
+    
+    
+    text-decoration:none;
+
+
+    color:white;
+}
+.header ul li a:hover{
+    font-weight: bold;
+}
